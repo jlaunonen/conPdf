@@ -1,0 +1,21 @@
+[project]
+name = "conPdf"
+version = "1.0"
+description = ""
+requires-python = ">=3.10"
+authors = [
+    {name = "Jyrki Launonen"},
+]
+
+dependencies = [
+    "jinja2~=3.1",
+    "weasyprint~=59.0",
+]
+
+[project.scripts]
+main = "conPdf.main:main"
+
+[tool.setuptools]
+py-modules = [
+    "conPdf",
+]
